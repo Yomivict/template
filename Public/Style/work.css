@@ -214,9 +214,11 @@ footer .footer-links a,
 footer .social-icons a {
    color: #898fa1;
 }
-
+.social-icons{
+   display: inline-flex;
+}
 footer .social-icons a {
-   font-size: 24px;
+   font-size: 50px;
 }
 
 footer .footer-links a {
@@ -226,7 +228,7 @@ footer .footer-links a {
 
 footer .social-icons a:hover,
 footer .footer-links a:hover {
-   color: #E93B81;
+   color: palevioletred;
 }
 .pip{
     color: white;
@@ -240,4 +242,14 @@ footer .footer-links a:hover {
    background-attachment: fixed;
    display: flex;
    align-items: center;
+}
+.pat{
+   font-size: 50px;
+   color: goldenrod;
+}
+.sos{
+   text-align: center;
+   display: inline-flex;
+   width: auto;
+   padding-top: 20px;
 }
