@@ -8,6 +8,7 @@ body {
 }
 
 
+
 h1,h2,h3,h4,h5,h6 {
    font-weight: 700;
    letter-spacing: 1px;
@@ -63,14 +64,12 @@ section {
    color: #11245A !important;
 }
 .navbar .nav-link {
-   font-size: 15px;
+   font-size: 12px;
    text-transform: uppercase;
    letter-spacing: 1px;
-   border: 2px solid;
-   border-radius: 30px;
+   align-items: center;
 }
 .navbar .nav-link:hover{
-   color: #ce2f6e;
    transform: scale(1.2);
 }
 
